@@ -1,5 +1,6 @@
 # Challenge Nine- Professional README Generator
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ## Table of Contents
 - [Description](#description)
 - [Installation](#installation)
@@ -40,25 +41,28 @@ To begin run: npm i inquirer@8.2.4
 then proceed with: node index.js
 
 ## Video Walkthrough
+https://drive.google.com/file/d/1zAQ5pZYId3lwuVYNCI-eCbTj3kx9Gb0o/view
+
 
 
 ## Screenshots
 
 
 ## Usage
-
+to help creat Professional and quality README's
 
 ## Contributors
-
+At this time there are no other contributors to this project.
 
 ## Test
-
+node index.js
 
 ## Questions
-
+Any questions can be directed to the project Author.
 
 ## Github
-
+https://github.com/aecarena
 
 ## License
+[Read MIT License](https://opensource.org/licenses/MIT)
 

@@ -51,21 +51,15 @@ const questions = [
 ];
 
 
-
-// TODO: Create a function to write README file
-function writeToFile(fileName, data) {
-    return writeFile(path.join(process.cwd(), fileName,), data);
-}
-
 // TODO: Create a function to initialize app
 function init() {
-        const UserInput = inquirer.prompt(questions);
+    const UserInput = inquirer.prompt(questions);
     
-        UserInput.then((data) => {
+    UserInput.then((data) => {
         const readMeContent = generateMarkdown(data);
         const filePathAndName = './README2.md';
-
-        writeToFile(filePathAndName, readMeContent);
+        
+        fs.writeFile(filePathAndName, readMeContent, "utf8", (err)=>{ if(err) console.error(err); });
     });
 
 };
